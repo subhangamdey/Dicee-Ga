@@ -43,5 +43,13 @@ switch(randomNumber2){
         break;
 }
 
-
+if(randomNumber1>randomNumber2){
+    document.querySelector("h1").innerHTML = "🚩 player 1 Wins"
+}
+else if(randomNumber1<randomNumber2){
+    document.querySelector("h1").innerHTML = "player 2 Wins 🚩" 
+}
+else{
+    document.querySelector("h1").innerHTML = "🚩 It's a Draw!! 🚩"
+}
 
